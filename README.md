@@ -2,7 +2,7 @@
 Original Source: https://www.kaggle.com/datasets/bryanchungweather/nba-player-stats-dataset-for-the-2023-2024
 
 <h3>Info</h3>
-This dataset contains detailed performance statistics for NBA players from the 2023-2024 regular season. With 3621 rows and 29 columns, it offers a diverse set of metrics to analyze player achievements. The information is sourced from Basketball Reference, guaranteeing high-quality and reliable data.
+This dataset contains detailed performance statistics for NBA players from the 2023-2024 regular season. With <b>3621 rows and 29 columns</b>, it offers a diverse set of metrics to analyze player achievements. The information is sourced from Basketball Reference, guaranteeing high-quality and reliable data.
 
 <br><br>
 ✅ Clean Data
