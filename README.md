@@ -58,7 +58,7 @@ If you are working in Python, use the following command to download the dataset 
 ```python
 import pandas as pd
 df = pd.read_csv("NBA_2024_cleaned.csv")
-print(df.head())
+print(df.info())
 ```
 ### R
 If you are working in R, use the following commands to download the dataset and load it into a data frame:
