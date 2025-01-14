@@ -43,3 +43,28 @@ This dataset contains detailed performance statistics for NBA players from the 2
 <li>PF: Personal fouls per game</li>
 <li>PTS: Points per game</li>
 </ul>
+
+## Downloading the Dataset
+
+To work with the dataset, follow the steps below based on your programming environment:
+
+### Python
+If you are working in Python, use the following command to download the dataset and load it into a DataFrame:
+
+```bash
+!curl -o NBA_2024_cleaned.csv https://raw.githubusercontent.com/annlntv/sg_da/main/NBA_2024_cleaned.csv
+```
+
+```python
+import pandas as pd
+df = pd.read_csv("NBA_2024_cleaned.csv")
+print(df.head())
+```
+### R
+If you are working in R, use the following commands to download the dataset and load it into a data frame:
+```R
+download.file("https://raw.githubusercontent.com/annlntv/sg_da/main/NBA_2024_cleaned.csv", "NBA_2024_cleaned.csv")
+df <- read.csv("NBA_2024_cleaned.csv")
+head(df)
+```
+
